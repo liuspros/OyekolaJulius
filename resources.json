@@ -1,0 +1,233 @@
+{
+  "siteUrl": "https://oyekolajulius.vercel.app",
+  "owner": "Oyekola Julius",
+  "libraries": {
+    "developers": {
+      "slug": "developers",
+      "name": "Developers Library",
+      "lines": [
+        "DEVELOPERS",
+        "LIBRARY"
+      ],
+      "swash": [
+        4,
+        3
+      ],
+      "metaTitle": "Developers Library: free open-licensed resources | Oyekola Julius",
+      "metaDescription": "Free, open-licensed books, specifications and docs for web developers, each with its license, author and a ready-to-copy citation.",
+      "lead": "Books, specifications and documentation I rely on, all free to read and openly licensed. Every entry names its author, shows its license, and comes with a citation you can copy."
+    },
+    "designers": {
+      "slug": "designers",
+      "name": "Designers Library",
+      "lines": [
+        "DESIGNERS",
+        "LIBRARY"
+      ],
+      "swash": [
+        4,
+        3
+      ],
+      "metaTitle": "Designers Library: free open-licensed resources | Oyekola Julius",
+      "metaDescription": "Free, open-licensed standards, icons, illustrations and design tools, each with its license, author and a ready-to-copy citation.",
+      "lead": "Standards, icons, illustrations and tools for designers, all openly licensed. Every entry names its author, shows its license, and comes with a citation you can copy."
+    }
+  },
+  "resources": [
+    {
+      "id": "mdn-web-docs",
+      "library": "developers",
+      "kind": "Documentation",
+      "type": "link",
+      "title": "MDN Web Docs",
+      "author": "MDN contributors (Mozilla)",
+      "apaAuthor": "MDN Contributors",
+      "bibAuthor": "{MDN Contributors}",
+      "year": null,
+      "publisher": "Mozilla",
+      "url": "https://developer.mozilla.org/",
+      "license": {
+        "name": "CC BY-SA 2.5",
+        "url": "https://creativecommons.org/licenses/by-sa/2.5/",
+        "note": "Code examples are CC0 (public domain)."
+      },
+      "tags": [
+        "html",
+        "css",
+        "javascript",
+        "reference"
+      ],
+      "summary": "The reference I reach for first: clear documentation for HTML, CSS, JavaScript and the web platform APIs, maintained by Mozilla and an open community."
+    },
+    {
+      "id": "html-living-standard",
+      "library": "developers",
+      "kind": "Specification",
+      "type": "link",
+      "title": "HTML Living Standard",
+      "author": "WHATWG",
+      "apaAuthor": "WHATWG",
+      "bibAuthor": "{WHATWG}",
+      "year": null,
+      "publisher": "WHATWG",
+      "url": "https://html.spec.whatwg.org/",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "note": ""
+      },
+      "tags": [
+        "html",
+        "specification",
+        "standards"
+      ],
+      "summary": "The authoritative, continuously updated specification for HTML. Dense, but it settles every argument about what a tag is actually supposed to do."
+    },
+    {
+      "id": "pro-git",
+      "library": "developers",
+      "kind": "Book",
+      "type": "link",
+      "title": "Pro Git",
+      "edition": "2nd ed.",
+      "author": "Scott Chacon & Ben Straub",
+      "apaAuthor": "Chacon, S., & Straub, B.",
+      "bibAuthor": "Chacon, Scott and Straub, Ben",
+      "year": 2014,
+      "publisher": "Apress",
+      "url": "https://git-scm.com/book/en/v2",
+      "license": {
+        "name": "CC BY-NC-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "note": ""
+      },
+      "tags": [
+        "git",
+        "version control",
+        "book"
+      ],
+      "summary": "The standard free book on Git, from first commit to internals. Read online or download an edition from the official site."
+    },
+    {
+      "id": "eloquent-javascript",
+      "library": "developers",
+      "kind": "Book",
+      "type": "link",
+      "title": "Eloquent JavaScript",
+      "edition": "4th ed.",
+      "author": "Marijn Haverbeke",
+      "apaAuthor": "Haverbeke, M.",
+      "bibAuthor": "Haverbeke, Marijn",
+      "year": 2024,
+      "publisher": "No Starch Press",
+      "url": "https://eloquentjavascript.net/",
+      "license": {
+        "name": "CC BY-NC 3.0",
+        "url": "https://creativecommons.org/licenses/by-nc/3.0/",
+        "note": ""
+      },
+      "tags": [
+        "javascript",
+        "book",
+        "programming"
+      ],
+      "summary": "A modern introduction to JavaScript and programming in general, with exercises you can run in the browser."
+    },
+    {
+      "id": "wcag-2-2",
+      "library": "designers",
+      "kind": "Standard",
+      "type": "link",
+      "title": "Web Content Accessibility Guidelines (WCAG) 2.2",
+      "author": "World Wide Web Consortium (W3C)",
+      "apaAuthor": "World Wide Web Consortium",
+      "bibAuthor": "{World Wide Web Consortium}",
+      "year": 2023,
+      "publisher": "W3C",
+      "url": "https://www.w3.org/TR/WCAG22/",
+      "license": {
+        "name": "W3C Software and Document License",
+        "url": "https://www.w3.org/copyright/software-license-2023/",
+        "note": ""
+      },
+      "tags": [
+        "accessibility",
+        "standards",
+        "ux"
+      ],
+      "summary": "The international standard for accessible web content. The success criteria I check my own designs against, from contrast to focus order."
+    },
+    {
+      "id": "lucide-icons",
+      "library": "designers",
+      "kind": "Icon set",
+      "type": "link",
+      "title": "Lucide Icons",
+      "author": "Lucide Contributors",
+      "apaAuthor": "Lucide Contributors",
+      "bibAuthor": "{Lucide Contributors}",
+      "year": null,
+      "publisher": "Lucide",
+      "url": "https://lucide.dev/",
+      "license": {
+        "name": "ISC",
+        "url": "https://github.com/lucide-icons/lucide/blob/main/LICENSE",
+        "note": "Portions derived from Feather are MIT licensed."
+      },
+      "tags": [
+        "icons",
+        "svg",
+        "ui"
+      ],
+      "summary": "A clean, consistent open-source icon set with simple SVGs that drop into any project, free for personal and commercial use."
+    },
+    {
+      "id": "open-peeps",
+      "library": "designers",
+      "kind": "Illustrations",
+      "type": "link",
+      "title": "Open Peeps",
+      "author": "Pablo Stanley",
+      "apaAuthor": "Stanley, P.",
+      "bibAuthor": "Stanley, Pablo",
+      "year": null,
+      "publisher": "Open Peeps",
+      "url": "https://www.openpeeps.com/",
+      "license": {
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "note": "Public domain dedication."
+      },
+      "tags": [
+        "illustration",
+        "characters",
+        "free assets"
+      ],
+      "summary": "A hand-drawn illustration library for mixing and matching characters. Public domain, so you can use it without attribution."
+    },
+    {
+      "id": "penpot",
+      "library": "designers",
+      "kind": "Design tool",
+      "type": "link",
+      "title": "Penpot",
+      "author": "Kaleidos and contributors",
+      "apaAuthor": "Kaleidos",
+      "bibAuthor": "{Kaleidos}",
+      "year": null,
+      "publisher": "Kaleidos",
+      "url": "https://penpot.app/",
+      "license": {
+        "name": "MPL 2.0",
+        "url": "https://www.mozilla.org/en-US/MPL/2.0/",
+        "note": ""
+      },
+      "tags": [
+        "design tool",
+        "prototyping",
+        "open source"
+      ],
+      "summary": "An open-source design and prototyping tool that runs in the browser, built around open web standards like SVG and CSS."
+    }
+  ]
+}
